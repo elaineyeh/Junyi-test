@@ -1,0 +1,15 @@
+1. (A) 請寫一個程式把裡面的字串反過來。 
+question = "junyiacademy"
+ans = question[::-1]
+print(ans)
+
+
+(B) 請寫一個程式把裡面的字串,每個單字本身做反轉,但是單字的順序不變。 
+question = "flipped class room is important"
+space = question.split()
+ans = ""
+
+for i in range(0, len(space)):
+  ans = ans + space[i][::-1] + " "
+
+print(ans)
